@@ -106,12 +106,14 @@ body{
     font-style: italic;
     font-size: 26;
     color: maroon;
-    position: sticky;
-    left: 27%;
+    position: fixed;
+    /* left: 27%;
     top: -30%;
-    right: 0px;
-    bottom: 0px;
-    /* z-index: 3; */
+    right: 0px;*/
+    bottom: 0px; 
+     z-index: +1;
+     margin-left: 380px;
+     margin-bottom: 5%;
 }
 
 .G{
